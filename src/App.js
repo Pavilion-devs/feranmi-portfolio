@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
 import FeaturedWork from './components/FeaturedWork';
 import About from './components/About';
@@ -37,7 +36,6 @@ function App() {
       {/* Main content */}
       <main>
         <Hero />
-        <TrustedBy />
         <Services />
         <FeaturedWork />
         <About />

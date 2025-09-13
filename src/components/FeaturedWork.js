@@ -3,28 +3,28 @@ import React from 'react';
 const FeaturedWork = () => {
   const projects = [
     {
-      title: "Aurora Financial",
-      type: "Mobile App",
-      image: "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/a6ea5042-fd78-4888-b5e1-47f268a0569b_800w.jpg",
+      title: "MarginPlus",
+      type: "Mobile Application and Web Application",
+      image: "https://res.cloudinary.com/dnl3yjnre/image/upload/v1757783290/Screenshot_2025-09-13_at_2.08.03_PM_wnbriv.png",
       alt: "Aurora Financial App"
     },
     {
-      title: "Nexus Dashboard",
+      title: "HepKids Dashboard",
       type: "Web Platform",
-      image: "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/78877756-9e45-410e-b630-78c3dfb8e94c_1600w.jpg",
+      image: "https://res.cloudinary.com/dnl3yjnre/image/upload/v1757784110/Screenshot_2025-09-13_at_2.21.43_PM_fumccb.png",
       alt: "Nexus Dashboard"
     },
     {
-      title: "Zenith Store",
-      type: "E‑commerce",
-      image: "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/7ee361ca-4978-4130-bab8-b605105c04b4_1600w.jpg",
-      alt: "Zenith E-commerce"
+      title: "Sembe",
+      type: "Mobile Application",
+      image: "https://res.cloudinary.com/dnl3yjnre/image/upload/v1757784354/Screenshot_2025-09-13_at_2.25.32_PM_l4fnjg.png",
+      alt: "Sembe"
     },
     {
-      title: "Orbit Workspace",
+      title: "Hostless CloudSpace",
       type: "Collaboration",
-      image: "https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/5162c07d-8a65-4a42-9a8c-c48dbea36297_1600w.jpg",
-      alt: "Orbit Workspace"
+      image: "https://res.cloudinary.com/dnl3yjnre/image/upload/v1757783193/Screenshot_2025-09-13_at_2.02.01_PM_awyrkn.png",
+      alt: "Hostless Workspace"
     }
   ];
 

@@ -87,20 +87,21 @@ const Hero = () => {
               <span className="letter-animated animate" style={{marginRight: '0.5rem'}}> </span>
               <span className="letter-animated animate" style={{marginRight: '0.5rem'}}> </span>
               <span className="letter-animated animate" style={{marginRight: '0.5rem'}}> </span>
-              <span className="letter-animated animate">P</span>
-              <span className="letter-animated animate">r</span>
+              <span className="letter-animated animate">S</span>
               <span className="letter-animated animate">o</span>
-              <span className="letter-animated animate">d</span>
-              <span className="letter-animated animate">u</span>
-              <span className="letter-animated animate">c</span>
+              <span className="letter-animated animate">f</span>
               <span className="letter-animated animate">t</span>
-              <span className="letter-animated animate" style={{marginRight: '0.5rem'}}> </span>
-              <span className="letter-animated animate">D</span>
+              <span className="letter-animated animate">w</span>
+              <span className="letter-animated animate">a</span>
+              <span className="letter-animated animate">r</span>
               <span className="letter-animated animate">e</span>
-              <span className="letter-animated animate">s</span>
-              <span className="letter-animated animate">i</span>
-              <span className="letter-animated animate">g</span>
+              <span className="letter-animated animate" style={{marginRight: '0.5rem'}}> </span>
+              <span className="letter-animated animate">E</span>
               <span className="letter-animated animate">n</span>
+              <span className="letter-animated animate">g</span>
+              <span className="letter-animated animate">i</span>
+              <span className="letter-animated animate">n</span>
+              <span className="letter-animated animate">e</span>
               <span className="letter-animated animate">e</span>
               <span className="letter-animated animate">r</span>
               <span className="letter-animated animate" style={{marginRight: '0.5rem'}}> </span>
@@ -119,7 +120,7 @@ const Hero = () => {
           
           <div className="opacity-0 animate-slide-up" style={{animationDelay: '1.2s'}}>
             <p className="mt-6 max-w-3xl mx-auto text-xl lg:text-2xl text-gray-400 leading-relaxed font-geist tracking-tight font-light">
-              Crafting digital experiences that feel intuitive, look beautiful, and solve real problems for companies like Apple, Tesla, and Stripe.
+              Crafting digital experiences that feel intuitive, look beautiful, and solve real problems for companies.
             </p>
           </div>
 
@@ -146,16 +147,12 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto opacity-0 animate-fade-in" style={{animationDelay: '1.6s'}}>
             <div className="text-center">
-              <div className="text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">8+</div>
+              <div className="text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">3+</div>
               <div className="text-sm text-gray-400 mt-1 font-geist">Years</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">50+</div>
+              <div className="text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">10+</div>
               <div className="text-sm text-gray-400 mt-1 font-geist">Projects</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">12</div>
-              <div className="text-sm text-gray-400 mt-1 font-geist">Awards</div>
             </div>
           </div>
         </div>

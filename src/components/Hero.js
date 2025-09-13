@@ -125,7 +125,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="mt-12 sm:mt-16 grid grid-cols-3 gap-4 sm:gap-8 max-w-lg mx-auto opacity-0 animate-fade-in px-4" style={{animationDelay: '1.6s'}}>
+          <div className="mt-12 sm:mt-16 grid grid-cols-2 gap-4 sm:gap-8 max-w-md mx-auto opacity-0 animate-fade-in px-4" style={{animationDelay: '1.6s'}}>
             <div className="text-center">
               <div className="text-xl sm:text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">3+</div>
               <div className="text-xs sm:text-sm text-gray-400 mt-1 font-geist">Years</div>
@@ -133,10 +133,6 @@ const Hero = () => {
             <div className="text-center">
               <div className="text-xl sm:text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">10+</div>
               <div className="text-xs sm:text-sm text-gray-400 mt-1 font-geist">Projects</div>
-            </div>
-            <div className="text-center">
-              <div className="text-xl sm:text-2xl lg:text-3xl text-white font-geist tracking-tight font-light">12</div>
-              <div className="text-xs sm:text-sm text-gray-400 mt-1 font-geist">Awards</div>
             </div>
           </div>
         </div>

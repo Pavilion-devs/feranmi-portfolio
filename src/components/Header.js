@@ -91,7 +91,7 @@ const Header = () => {
 
           <button
             onClick={toggleMobileMenu}
-            className="md:hidden rounded-lg sm:rounded-xl bg-white/15 border border-white/30 p-2.5 text-white hover:bg-white/20 backdrop-blur-md"
+            className="md:hidden rounded-lg sm:rounded-xl bg-white/15 border border-white/30 p-2.5 text-white hover:bg-white/20 backdrop-blur-md flex items-center justify-center"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -62,7 +62,7 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Profile image */}
-          <div className="mb-8 flex justify-center opacity-0 animate-scale-in" style={{animationDelay: '0.8s'}}>
+          <div className="mb-6 flex justify-center opacity-0 animate-scale-in" style={{animationDelay: '0.8s'}}>
             <div className="relative parallax-scale" data-parallax="scale" data-scale-start="1" data-scale-end="1.2" style={{transform: 'scale(1)', transition: 'transform 0.1s ease-out'}}>
               <img 
                 alt="Feranmi Adeyemi" 
@@ -106,17 +106,17 @@ const Hero = () => {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 opacity-0 animate-slide-up px-4" style={{animationDelay: '1.4s'}}>
             <button onClick={() => scrollToSection('work')} className="group inline-flex items-center justify-center gap-3 rounded-full bg-white text-black px-8 py-3.5 text-base font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 font-geist w-full sm:w-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
                 <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path>
               </svg>
               View my work
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
               </svg>
             </button>
             <button onClick={() => scrollToSection('about')} className="group inline-flex items-center justify-center gap-3 rounded-full border border-white/20 bg-white/10 backdrop-blur text-white px-8 py-3.5 text-base font-medium hover:bg-white/15 transition-all duration-300 hover:scale-105 font-geist w-full sm:w-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>

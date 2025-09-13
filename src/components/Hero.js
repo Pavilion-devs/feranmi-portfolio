@@ -63,7 +63,7 @@ const Hero = () => {
           <div className="mb-8 flex justify-center opacity-0 animate-scale-in" style={{animationDelay: '0.8s'}}>
             <div className="relative parallax-scale" data-parallax="scale" data-scale-start="1" data-scale-end="1.2" style={{transform: 'scale(1)', transition: 'transform 0.1s ease-out'}}>
               <img 
-                alt="Jordan Chen" 
+                alt="Feranmi Adeyemi" 
                 className="h-32 w-32 lg:h-40 lg:w-40 rounded-full object-cover ring-4 ring-white/20 shadow-2xl transition-all duration-300" 
                 src="image.JPG" 
                 style={{transform: 'inherit'}}

@@ -20,18 +20,18 @@ const Header = () => {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-40 opacity-0 animate-fade-in my-4 backdrop-blur-3xl"
+      className="fixed top-0 left-0 right-0 z-40 opacity-0 animate-fade-in my-2 sm:my-4 backdrop-blur-3xl"
       style={{ animationDelay: "0.2s" }}
     >
-      <div className="relative max-w-7xl lg:px-8 ring-1 ring-white/10 bg-white/10 border-white/20 border rounded-2xl mr-auto ml-auto pr-6 pl-6 shadow-lg backdrop-blur-lg">
-        <div className="flex h-20 items-center justify-between">
+      <div className="relative max-w-7xl lg:px-8 ring-1 ring-white/10 bg-white/10 border-white/20 border rounded-xl sm:rounded-2xl mr-auto ml-auto px-4 sm:px-6 shadow-lg backdrop-blur-lg">
+        <div className="flex h-16 sm:h-20 items-center justify-between">
           <button
             className="group"
             onClick={() => scrollToSection("heroSection")}
           >
             <div className="flex items-center gap-2">
-              <div className="group-hover:bg-white/20 transition-colors bg-white/15 border-white/30 border rounded-xl pt-2 pr-3 pb-2 pl-3 backdrop-blur-md">
-                <span className="block text-lg font-semibold tracking-tight font-geist">
+              <div className="group-hover:bg-white/20 transition-colors bg-white/15 border-white/30 border rounded-lg sm:rounded-xl p-2 sm:p-2 backdrop-blur-md">
+                <span className="block text-base sm:text-lg font-semibold tracking-tight font-geist">
                   EA
                 </span>
               </div>
@@ -61,7 +61,7 @@ const Header = () => {
               href="https://docs.google.com/document/d/1CBgs-EG9dQkeaVb5vDWw9_T-2qEhSoy-cXfVRAl4Fxc/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="block text-gray-300 hover:text-white transition-colors font-geist text-left"
+              className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200 font-geist"
             >
               Resume
             </a>
@@ -91,7 +91,7 @@ const Header = () => {
 
           <button
             onClick={toggleMobileMenu}
-            className="md:hidden rounded-xl bg-white/15 border border-white/30 p-2.5 text-white hover:bg-white/20 backdrop-blur-md"
+            className="md:hidden rounded-lg sm:rounded-xl bg-white/15 border border-white/30 p-2.5 text-white hover:bg-white/20 backdrop-blur-md"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -116,9 +116,9 @@ const Header = () => {
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
-          } md:hidden absolute top-full left-0 right-0 bg-black/80 backdrop-blur-xl border-b border-white/20 rounded-b-2xl shadow-lg ring-1 ring-white/10`}
+          } md:hidden absolute top-full left-0 right-0 bg-black/80 backdrop-blur-xl border-b border-white/20 rounded-b-xl sm:rounded-b-2xl shadow-lg ring-1 ring-white/10`}
         >
-          <div className="px-6 py-6 space-y-4">
+          <div className="px-4 sm:px-6 py-4 space-y-2">
             <button
               onClick={() => scrollToSection("work")}
               className="block rounded-xl px-4 py-3 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white transition-colors font-geist w-full text-left"
@@ -137,12 +137,14 @@ const Header = () => {
             >
               Process
             </button>
-            <button
-              onClick={() => scrollToSection("journal")}
+            <a
+              href="https://docs.google.com/document/d/1CBgs-EG9dQkeaVb5vDWw9_T-2qEhSoy-cXfVRAl4Fxc/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block rounded-xl px-4 py-3 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white transition-colors font-geist w-full text-left"
             >
-              Journal
-            </button>
+              Resume
+            </a>
             <div className="pt-4 border-t border-white/20">
               <button
                 onClick={() => scrollToSection("contact")}

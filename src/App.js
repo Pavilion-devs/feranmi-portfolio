@@ -12,7 +12,7 @@ import GoToTop from './components/GoToTop';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       {/* Gradient background */}
       <div aria-hidden="true" className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute -top-40 -left-40 h-80 w-80 rounded-full bg-blue-600/20 blur-3xl opacity-0 animate-fade-in" style={{animationDelay: '0.5s'}}></div>
